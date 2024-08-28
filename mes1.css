@@ -1,0 +1,202 @@
+ /* mayar */
+  /* .mayar {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  .mayar {
+      /* overflow-x: hidden; */
+      /* Prevent horizontal scrolling */
+      */
+
+      .part1 {
+          overflow: auto;
+      }
+    
+      .left image {
+          width: 50%;
+          height: 100vh;
+      }
+    
+      .right {
+          text-align: center;
+          position: relative;
+          /* bottom: 810px;
+        left: 400px; */
+          float: right;
+    
+      }
+    
+      .left {
+          margin-top: 50px;
+          float: left;
+      }
+    
+      .text {
+          position: absolute;
+          top: 100px;
+          left: 530px;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font-size: 60px;
+    
+      }
+    
+      .logo {
+          position: absolute;
+          top: 85px;
+          left: 790px;
+      }
+    
+      .part3 {
+          position: relative;
+    
+    
+      }
+    
+      .cup-of-tea {
+          position: absolute;
+    
+      }
+    
+      .center {
+          position: absolute;
+          color: white;
+          top: 2520px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          left: 300px;
+          font-size: 90px;
+      }
+    
+      .part4 {
+          position: relative;
+          top: 200px;
+      }
+    
+      .rig {
+          position: absolute;
+          left: 800px;
+          top: 585px;
+      }
+    
+      .lef {
+          position: absolute;
+          top: 930px;
+          left: 100px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+      }
+    
+      .part2 {
+          position: relative;
+          background-color: rgb(216, 195, 174);
+          padding: 10px;
+    
+    
+    
+      }
+    
+      .part2 {
+          display: flex;
+          /* Enables flexbox layout for the container */
+          justify-content: space-between;
+          /* Distributes space evenly between text and product sections */
+    
+          background-color: #f5e3c3;
+          margin: 0;
+          /* Remove default margins */
+    
+          position: relative;
+          /* If needed for other styling */
+    
+          top: 0;
+      }
+    
+      .text-section {
+    
+          flex: 1;
+          /* Allows the text section to take up available space in the flex container */
+          padding-right: 50px;
+          /* Adds space between the text section and the product section */
+      }
+    
+      .text-section h1 {
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          font-size: 36px;
+          margin-bottom: 10px;
+          /* Adds space below the heading */
+          padding-left: 60px;
+          /* Adds space between heading and left */
+          padding-top: 100px;
+          /* Adds space between heading and top */
+      }
+    
+      .text-section p {
+          font-size: 18px;
+          color: #666;
+          margin-bottom: 10px;
+          /* Adds space below the paragraph */
+          padding-left: 60px;
+          /* Adds space between paragrapgh and right */
+    
+      }
+    
+      .product-section {
+          display: flex;
+          /* Enables flexbox layout for the product section */
+          gap: 30px;
+          /* Space between products */
+          align-items: center;
+          /* Vertically centers the product items within the section */
+    
+      }
+    
+      .product {
+          text-align: center;
+          /* Centers the text and images within each product container */
+          margin-bottom: 70px;
+          /* Adds space below the price */
+      }
+    
+      .product img {
+          width: 100%;
+          /* Makes the image take up the full width of its container */
+    
+          margin-bottom: 10px;
+          /* Adds space below the image */
+      }
+    
+      .product h2 {
+          font-size: 20px;
+          margin-bottom: 5px;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+    
+      .product p {
+          font-size: 18px;
+          color: #333;
+      }
+    
+      .custom-button {
+          background-color: bisque;
+          color: black;
+          /* Black text */
+          padding: 10px 20px;
+          font-size: 16px;
+          border: solid black 1px;
+          border-radius: 5px;
+          cursor: pointer;
+          /* Pointer cursor on hover */
+          transition: background-color 0.3s ease;
+          /* Smooth transition on hover */
+          font-weight: bold;
+          margin-left: 50px;
+          margin-top: 30px;
+      }
+    
+      .custom-button:hover {
+          background-color: white;
+          /* Slightly darker blue on hover */
+      }
+    
